@@ -15,6 +15,11 @@ explore: the_fresh {}
 view: the_fresh {
   derived_table: {
     sql: select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'dates' as item_name, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
+      select 'dates' as item_name, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
+      select 'dates' as item_name, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
+      select 'dates' as item_name, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
+      select 'dates' as item_name, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
       select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
       select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
       select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
