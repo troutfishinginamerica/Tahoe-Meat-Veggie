@@ -129,6 +129,11 @@ view: fruit_basket {
     sql: ${TABLE}.list_price, ;;
   }
 
+  dimension: paid_price{
+    type: number
+    sql: ${TABLE}.paid_price, ;;
+  }
+
   measure: count {
     type: count
   }
@@ -143,6 +148,17 @@ view: fruit_basket {
     type: sum
     value_format_name: usd
     sql: ${list_price} ;;
+  }
+  measure: average_price_paid {
+    type: average
+    value_format_name: usd
+    sql: ${paid_price} ;;
+  }
+
+  measure: total_price_paid {
+    type: sum
+    value_format_name: usd
+    sql: ${paid_price} ;;
   }
 
 }
