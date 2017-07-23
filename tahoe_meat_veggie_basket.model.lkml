@@ -11,8 +11,8 @@ include: "*.view"
 # include all dashboards in this project
 include: "*.dashboard"
 
-explore: fruit_basket {}
-view: fruit_basket {
+explore: the_fresh {}
+view: the_fresh {
   derived_table: {
     sql: select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
       select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
