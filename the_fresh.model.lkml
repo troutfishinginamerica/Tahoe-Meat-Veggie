@@ -115,6 +115,13 @@ view: the_fresh {
       select 'dill' as item_name, 'hogshead' as unit, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price, 'Happy Boy Farms' as farmer union all
       select 'dill' as item_name, 'hogshead' as unit, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price, 'Happy Boy Farms' as farmer union all
       select 'dill' as item_name, 'hogshead' as unit, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price, 'Happy Boy Farms' as farmer union all
+      select 'steak' as item_name, 'chuck' as unit, 'cow' as color, 'no' as is_veggie, 20.50 as list_price, 18.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
+      select 'steak' as item_name, 'chuck' as unit, 'cow' as color, 'no' as is_veggie, 20.50 as list_price, 18.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
+      select 'steak' as item_name, 'chuck' as unit, 'cow' as color, 'no' as is_veggie, 20.50 as list_price, 18.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
+      select 'steak' as item_name, 'chuck' as unit, 'cow' as color, 'no' as is_veggie, 20.50 as list_price, 18.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
+      select 'roast' as item_name, 'cross-rib' as unit, 'cow' as color, 'no' as is_veggie, 40.00 as list_price, 32.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
+      select 'pork ends' as item_name, 'rasher' as unit, 'pig' as color, 'no' as is_veggie, 45.00 as list_price, 30.00 as paid_price, 'Massa Organic Farm' as farmer union all
+
        ;;
   }
 
