@@ -100,6 +100,11 @@ view: fruit_basket {
       select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
       select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
       select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
        ;;
   }
 
