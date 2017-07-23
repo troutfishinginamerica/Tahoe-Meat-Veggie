@@ -14,24 +14,104 @@ include: "*.dashboard"
 explore: fruit_basket {}
 view: fruit_basket {
   derived_table: {
-    sql: select 'apple' as fruit_name, 'red' as color, 'yes' as is_round,  1.25 as price_per_pound, 0.6 as weight, 0.75 as price union all
-      select 'apple' as fruit_name, 'red' as color, 'yes' as is_round,  1.25 as price_per_pound, 0.55 as weight, 0.69 as price union all
-      select 'apple' as fruit_name, 'green' as color, 'yes' as is_round,  1.15 as price_per_pound, 0.4 as weight, 0.46 as price union all
-      select 'banana' as fruit_name, 'yellow' as color, 'no' as is_round,  0.75 as price_per_pound, 0.7 as weight, 0.53 as price union all
-      select 'banana' as fruit_name, 'yellow' as color, 'no' as is_round,  0.75 as price_per_pound, 0.75 as weight, 0.56 as price union all
-      select 'orange' as fruit_name, 'orange' as color, 'yes' as is_round,  1.45 as price_per_pound, 0.5 as weight, 0.73 as price union all
-      select 'orange' as fruit_name, 'orange' as color, 'yes' as is_round,  1.45 as price_per_pound, 0.45 as weight, 0.65 as price union all
-      select 'lemon' as fruit_name, 'yellow' as color, 'no' as is_round,  2.25 as price_per_pound, 0.2 as weight, 0.45 as price union all
-      select 'lemon' as fruit_name, 'yellow' as color, 'no' as is_round,  2.25 as price_per_pound, 0.22 as weight, 0.50 as price union all
-      select 'lemon' as fruit_name, 'yellow' as color, 'no' as is_round,  2.25 as price_per_pound, 0.19 as weight, 0.43 as price union all
-      select 'lime' as fruit_name, 'green' as color, 'no' as is_round,  2.40 as price_per_pound, 0.18 as weight, 0.43 as price union all
-      select 'lime' as fruit_name, 'green' as color, 'no' as is_round,  2.40 as price_per_pound, 0.17 as weight, 0.41 as price
+    sql: select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'beets' as item_name, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'tomatoes' as item_name, 'multi' as color, 'yes' as is_veggie, 4.00 as list_price, 2.92 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'cucumbers' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.00 as paid_price union all
+      select 'salad greens' as item_name, 'multi' as color, 'yes' as is_veggie, as list_price, 5.83 as paid_price union all
+      select 'salad greens' as item_name, 'multi' as color, 'yes' as is_veggie, as list_price, 5.83 as paid_price union all
+      select 'salad greens' as item_name, 'multi' as color, 'yes' as is_veggie, as list_price, 5.83 as paid_price union all
+      select 'salad greens' as item_name, 'multi' as color, 'yes' as is_veggie, as list_price, 5.83 as paid_price union all
+      select 'salad greens' as item_name, 'multi' as color, 'yes' as is_veggie, as list_price, 5.83 as paid_price union all
+      select 'salad greens' as item_name, 'multi' as color, 'yes' as is_veggie, as list_price, 5.83 as paid_price union all
+      select 'thyme' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'thyme' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'thyme' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'thyme' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'thyme' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'thyme' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'basil' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price  union all
+      select 'rosemary' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'chives' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'chives' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'chives' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'chives' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'chives' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'chives' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'carrots' as item_name, 'multi' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'dill' as item_name, 'green' as color, 'yes' as is_veggie, 1.50 as list_price, 1.50 as paid_price union all
        ;;
   }
 
-  dimension: fruit_type {
+  dimension: hippie_friendly {
     type: string
-    sql: ${TABLE}.fruit_name ;;
+    sql: ${TABLE}.is_veggie ;;
+  }
+
+
+  dimension: item_name {
+    type: string
+    sql: ${TABLE}.item_name ;;
   }
 
   dimension: color {
@@ -39,51 +119,25 @@ view: fruit_basket {
     sql: ${TABLE}.color ;;
   }
 
-  dimension: is_round {
-    type: string
-    sql: ${TABLE}.is_round ;;
-  }
-
-  dimension: price_per_pound {
+  dimension: list_price{
     type: number
-    sql: ${TABLE}.price_per_pound ;;
-  }
-
-  dimension: weight {
-    type: number
-    sql: ${TABLE}.weight ;;
-  }
-
-  dimension: price {
-    type: number
-    sql: ${TABLE}.price ;;
+    sql: ${TABLE}.list_price, ;;
   }
 
   measure: count {
     type: count
   }
 
-  measure: average_weight {
-    type: average
-    sql: ${weight} ;;
-  }
-
-  measure: average_price {
+  measure: average_price_list {
     type: average
     value_format_name: usd
-    sql: ${price} ;;
+    sql: ${list_price} ;;
   }
 
-  measure: total_weight {
-    type: sum
-    value_format_name: decimal_2
-    sql: ${weight} ;;
-  }
-
-  measure: total_price {
+  measure: total_price_list {
     type: sum
     value_format_name: usd
-    sql: ${price} ;;
+    sql: ${list_price} ;;
   }
 
 }
