@@ -15,12 +15,12 @@ explore: the_fresh {}
 view: the_fresh {
   derived_table: {
     sql: select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
-      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
-      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
-      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
-      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
-      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all
-      select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price union all
+      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all 'Deal Real Dates' as farmer union all
+      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all 'Deal Real Dates' as farmer union all
+      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all 'Deal Real Dates' as farmer union all
+      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all 'Deal Real Dates' as farmer union all
+      select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price union all 'Deal Real Dates' as farmer union all
+      select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price  'Capay Organic' as farmer union all
       select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
       select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
       select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
@@ -120,7 +120,7 @@ view: the_fresh {
       select 'steak' as item_name, 'chuck' as unit, 'cow' as color, 'no' as is_veggie, 20.50 as list_price, 18.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
       select 'steak' as item_name, 'chuck' as unit, 'cow' as color, 'no' as is_veggie, 20.50 as list_price, 18.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
       select 'roast' as item_name, 'cross-rib' as unit, 'cow' as color, 'no' as is_veggie, 40.00 as list_price, 32.50 as paid_price, 'Fallon Hills Ranch' as farmer union all
-      select 'pork ends' as item_name, 'rasher' as unit, 'pig' as color, 'no' as is_veggie, 45.00 as list_price, 30.00 as paid_price, 'Massa Organic Farm' as farmer union all
+      select 'pork ends' as item_name, 'rasher' as unit, 'pig' as color, 'no' as is_veggie, 45.00 as list_price, 30.00 as paid_price, 'Massa Organic Farm' as farmer
 
        ;;
   }
