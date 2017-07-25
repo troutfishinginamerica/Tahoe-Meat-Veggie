@@ -20,7 +20,7 @@ view: the_fresh {
       select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price, 'Del Real Dates' as farmer union all
       select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price, 'Del Real Dates' as farmer union all
       select 'dates' as item_name, 'bag' as unit, 'brown' as color, 'yes' as is_veggie, 7.00 as list_price, 6.00 as paid_price, 'Del Real Dates' as farmer union all
-      select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price,  'Capay Organic'as farmer union all
+      select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
       select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
       select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
       select 'beets' as item_name, 'bunch' as unit, 'purple' as color, 'yes' as is_veggie, 2.50 as list_price, 1.25 as paid_price, 'Capay Organic' as farmer union all
@@ -150,14 +150,14 @@ view: the_fresh {
     sql: ${TABLE}.color ;;
   }
 
-  dimension: list_price{
+  dimension: list_price {
     type: number
-    sql: ${TABLE}.list_price, ;;
+    sql: ${TABLE}.list_price ;;
   }
 
   dimension: paid_price{
     type: number
-    sql: ${TABLE}.paid_price, ;;
+    sql: ${TABLE}.paid_price ;;
   }
 
   measure: count {
