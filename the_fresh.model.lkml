@@ -187,4 +187,10 @@ view: the_fresh {
     sql: ${paid_price} ;;
   }
 
+  measure: savings {
+    type: number
+    value_format_name: usd
+    sql: ${list_price}-${paid_price} ;;
+  }
+
 }
